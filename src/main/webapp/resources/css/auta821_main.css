@@ -1,0 +1,153 @@
+body {
+    background-color: #F4EDE3 !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.top-content {
+    background-color: #283347;
+    color: white;
+}
+
+.error {
+    border: 1px solid black;
+}
+
+.row {
+    --bs-gutter-x: 0rem !important;
+}
+
+.psearch11 {
+    min-width: 90px !important;
+    margin: auto;
+}
+
+.i出荷デポ {
+    max-width: 15%;
+    margin-right: 25px;
+}
+
+.p参照 {
+    min-width: 50px !important;
+}
+
+.paging {
+    padding-left: 10px;
+    color: white;
+    background-image: linear-gradient(#6dd2e9, #065aa8);
+}
+
+.disable-item {
+    background-color: #4CB1D2 !important;
+    border-color: #4CB1D2 !important;
+    color: white !important;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px !important;
+    border-radius: 4px;
+}
+
+.検索 {
+    background-color: #4CB1D2 !important;
+    border-color: #4CB1D2 !important;
+    color: white !important;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px !important;
+    box-shadow: 3px 3px 3px #888888;
+}
+
+.btn-disable {
+    background-color: #555555 !important;
+    border-color: #4CB1D2 !important;
+    color: white !important;
+    text-align: center;
+    text-decoration: none;
+    padding: 1px !important;
+    border-radius: 4px;
+}
+
+.表示 {
+    background-color: #CF5D51 !important;
+    border-color: #4CB1D2 !important;
+    color: white !important;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px #eeeeee;
+}
+
+table,
+th,
+td {
+    border: 1px solid gray !important;
+    border-left: 1px solid gray !important;
+}
+
+th {
+    background-color: #548dd4 !important;
+    text-align: center !important;
+    color: white;
+}
+
+
+.op {
+    max-width: 10px !important;
+}
+
+.iop {
+    max-width: 100%;
+}
+
+.出荷デポ {
+    max-width: 50px !important;
+}
+
+.i出荷デポ {
+    max-width: 100%;
+}
+
+.参照 {
+    background-color: #548dd4 !important;
+    text-align: right;
+}
+
+.btn参照 {
+    background-color: #CF5D51 !important;
+    border-color: #4CB1D2 !important;
+    color: white !important;
+    text-align: center;
+    text-decoration: none;
+    padding: 2px !important;
+    box-shadow: 2px 2px 2px #eeeeee;
+    border-radius: 4px;
+    display: flex;
+    max-width: 40px !important;
+    margin: auto !important;
+
+}
+
+.input-update {
+    max-width: 110px !important;
+}
+
+.oldQty {
+    max-width: 100px;
+}
+
+.メーカー名 {
+    max-width: 100px;
+}
+
+.SS名 {
+    max-width: 100px;
+}
+
+#btnU更新 {
+    position: relative;
+    top: 45px;
+    left: 72%;
+}

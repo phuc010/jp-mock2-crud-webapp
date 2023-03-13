@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"phuc.com.fa.demomvc.controller","l":"HomeController"}];updateSearchResults();
