@@ -1,9 +1,7 @@
 package phuc.com.fa.demomvc.controller;
 import java.io.IOException;
 import java.util.List;
-
 import javax.servlet.http.HttpServletResponse;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -44,7 +42,6 @@ public class HomeController {
         return "error";
     }
     
-    
     @GetMapping(value = "/downloadFile")
     public void downloadFile(HttpServletResponse response,
     		@RequestParam(name = "currentPage", defaultValue = "1") Integer currentPage,
@@ -60,25 +57,8 @@ public class HomeController {
       response.setContentType("application/octet-stream");
       response.setHeader("Content-Disposition", "attachment; filename=example.csv");
       List<Car> carList = carServiceImpl.listNoPage( メーカー, 搬入場所,manufacturerPartNumber,出荷デポ,SS,車種);
-      
-      String [][] list =  { {"Mr. ", "Mrs. ", "Ms. "}, {"Kumar"} };
-      for (int i = 0; i < list.length; i++) {
-    	  
-          // Loop through all elements of current row
-          for (int j = 0; j < list[i].length; j++) {
-              System.out.print(list[i][j] + " ");
-          }
-          System.out.println();
     }
-    }
-//      String[] contents = new String[] { "Hello", "World" };
-//      for (String arrayCar1 : list) {
-//          byte[] bytes = arrayCar1.getBytes(StandardCharsets.UTF_8);
-//          response.getOutputStream().write(bytes);
-//      }
-//      response.flushBuffer();
-//    }
-
+    
     @GetMapping("/export")
     public String export(@RequestParam(name = "currentPage", defaultValue = "1") Integer currentPage,
             @RequestParam(name = "メーカー", required = false) String メーカー,
